@@ -5,6 +5,7 @@ import { App } from './modules/app/App';
 import { InventoryPage } from './modules/inventory/InventoryPage';
 import { UploadPage } from './modules/upload/UploadPage';
 import { RecipesPage } from './modules/recipes/RecipesPage';
+import { TestPage } from './modules/test/TestPage';
 
 const router = createBrowserRouter([
   {
@@ -13,7 +14,8 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <InventoryPage /> },
       { path: 'upload', element: <UploadPage /> },
-      { path: 'recipes', element: <RecipesPage /> }
+      { path: 'recipes', element: <RecipesPage /> },
+      { path: 'test', element: <TestPage /> }
     ]
   }
 ]);

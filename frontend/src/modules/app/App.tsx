@@ -12,6 +12,7 @@ export function App(): JSX.Element {
           <NavLink to="/" label="Inventory" currentPath={location.pathname} />
           <NavLink to="/upload" label="Upload" currentPath={location.pathname} />
           <NavLink to="/recipes" label="Recipes" currentPath={location.pathname} />
+          <NavLink to="/test" label="Test" currentPath={location.pathname} />
         </nav>
         <div style={{ marginLeft: 'auto', fontSize: 12, color: '#666' }}>
           <HealthBadge />
